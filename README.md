@@ -51,21 +51,12 @@ Enable BLE using the command nbe.
 
 Type acts to verify the node is receiving position data from your anchor network.
 
-📂 Project Structure
-Plaintext
-├── main.py           # Main async logic for BLE and GPIO tasks
-├── config.yaml       # User settings (MAC address, Pins, Modes)
-├── config_loader.py  # Validation logic for the configuration file
-├── requirements.txt  # Python dependencies
-└── .gitignore        # Standard Python/OS ignore rules
-
 🚀 Installation
 Clone the repository:
 
 Bash
 git clone https://github.com/elementary15/dwm1001-ble-logger.git
 cd dwm1001-ble-logger
-Enable Bluetooth & GPIO: Ensure these are active via the Raspberry Pi configuration tool:
 
 Bash
 sudo raspi-config
@@ -102,3 +93,4 @@ Since the script requires access to the GPIO pins, it must be run with sudo:
 
 Bash
 sudo python3 main.py
+
