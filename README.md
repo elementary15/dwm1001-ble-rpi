@@ -21,7 +21,7 @@ DWM1001 Tag (with BLE firmware enabled)
 
 Momentary Push Button
 
-Jumper Wires (to connect Button to GPIO and GND)
+
 
 🏗 Initial Hardware Setup
 Before running the Python application, the DWM1001 boards must be flashed with the correct firmware and configured as tags.
@@ -93,4 +93,5 @@ Since the script requires access to the GPIO pins, it must be run with sudo:
 
 Bash
 sudo python3 main.py
+
 
