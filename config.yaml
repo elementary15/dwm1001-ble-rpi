@@ -1,0 +1,12 @@
+ble:
+  dwm_mac: "F7:2D:E4:D4:5A:E9"
+  location_mode: 2
+  update_interval_ms: 200
+
+gpio:
+  button_pin: 17
+  pull: "DOWN"   # options: UP or DOWN
+
+logging:
+  print_position_on_button: true
+

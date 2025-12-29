@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS junk
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+
+# BLE / runtime artifacts
+*.db
+
